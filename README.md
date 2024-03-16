@@ -142,7 +142,7 @@ Currently, this is not developed to be used by other people other than myself bu
 
 You should now be able to play around with your model. Here is an example of what it should look like:
 
-![Alt Text](https://github.com/PerifanosPrometheus/chatmeup/tree/main/demo/Sample_Q&A.gif)
+![Example gif](demo/Sample_Q&A.gif)
 
 <!-- CONTACT -->
 ## Contact
