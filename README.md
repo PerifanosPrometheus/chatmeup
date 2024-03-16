@@ -16,7 +16,7 @@
   <p align="center">
     A simple framework to create personal ChatBots
     <br />
-    <a href="https://github.com/PerifanosPrometheus/chatmeup">View Demo</a>
+    <a href="https://github.com/PerifanosPrometheus/chatmeup/tree/main/demo/Sample_Q&A.gif">View Demo</a>
   </p>
 </div>
 
@@ -83,7 +83,7 @@ Currently, this is not developed to be used by other people other than myself bu
     module_path = os.environ.get('MODULE_PATH')
     ```
 
-6. Add your fine-tuned model .gguf file or download the .gguf file for the model you are trying to test into the models folder.
+6. Create a models folder and add your fine-tuned model .gguf file to it or download the .gguf file for the model you are trying to test into it.
 
 7. Create a prompt template text file based on your model. You must utilize the placeholder {input} for the part of the prompt that you want to be replaced by the user input at inference. You must call the file with the name of the model. Here is an example:
     - For a model with gguf file called: llama-2-13b-chat.Q4_K_M.gguf. 
@@ -139,6 +139,10 @@ Currently, this is not developed to be used by other people other than myself bu
 
 11. Utilize the following comand to run the application locally:
     ```streamlit run ChatBot.py```
+
+You should now be able to play around with your model. Here is an example of what it should look like:
+
+![Alt Text](https://github.com/PerifanosPrometheus/chatmeup/tree/main/demo/Sample_Q&A.gif)
 
 <!-- CONTACT -->
 ## Contact
