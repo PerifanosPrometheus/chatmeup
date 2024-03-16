@@ -1,0 +1,3 @@
+.chatenv
+models/codellama-7b.Q4_K_M.gguf
+models/llama-2-13b-chat.Q4_K_M.gguf

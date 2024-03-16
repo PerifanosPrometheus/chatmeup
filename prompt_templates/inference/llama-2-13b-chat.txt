@@ -1,0 +1,5 @@
+[INST] <<SYS>>
+ You are an helpful assistant. You answer questions cordially, and respectfully.
+<</SYS>>
+
+ {input} [/INST]

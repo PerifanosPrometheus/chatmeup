@@ -1,0 +1,11 @@
+{
+    "n_threads": 8, 
+    "n_ctx":512,
+    "n_gpu_layers":0,
+    "temperature": 0.9,
+    "top_p":0.9,
+    "rope_freq_base": 10000,
+    "repeat_penalty": 1.1,
+    "model_path":"/Users/uvl6686/repos/chatmeup/models/llama-2-13b-chat.Q4_K_M.gguf",
+    "model_template": "/Users/uvl6686/repos/chatmeup/prompt_templates/inference/llama-2-13b-chat.txt"
+}
