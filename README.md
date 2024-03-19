@@ -121,7 +121,7 @@ Currently, this is not developed to be used by other people other than myself bu
     # Add a selectbox to the sidebar:
     model_type=st.sidebar.selectbox(
                     'Model',
-                    ('llama-2-13b-chat')
+                    ('llama-2-13b-chat',)
                 )
     ```
     - If you want to test multiple models you can perform the steps 6-8 above and then simply add an additional option. Here is an example when adding the codellama-7b model:
