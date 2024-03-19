@@ -1,7 +1,7 @@
 {
     "n_threads": 8, 
     "n_ctx":512,
-    "n_gpu_layers":0,
+    "n_gpu_layers":32,
     "temperature": 0.9,
     "top_p":0.9,
     "rope_freq_base": 10000,
